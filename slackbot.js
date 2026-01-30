@@ -35,8 +35,8 @@ function sendStandupNotification() {
     // http://svatky.centrum.cz/svatky/statni-svatky/
     const publicHolidays = [
         "01-01", // novy rok
-        "04-18", // velky patek (NEEDS TO BE CHANGED YEARLY!)
-        "04-21", // velikonocni pondeli (NEEDS TO BE CHANGED YEARLY!)
+        "04-03", // velky patek (NEEDS TO BE CHANGED YEARLY!)
+        "04-06", // velikonocni pondeli (NEEDS TO BE CHANGED YEARLY!)
         "05-01", // svatek prace
         "05-08", // den vitezstvi
         "07-05", // Cyril a Metodej
@@ -47,11 +47,10 @@ function sendStandupNotification() {
         "12-24", // Stedry den
         "12-25", // 1. svatek vanocni
         "12-26", // 2. svatek vanocni
-        "12-27", // PTO5
         "12-28", // PTO5
         "12-29", // PTO5
         "12-30", // PTO5
-        "12-31" // PTO5
+        "12-31", // PTO5
     ];
 
     const today = new Date();
@@ -70,14 +69,12 @@ function sendStandupNotification() {
         "USA8YNHR6",    //Lukas Ther
         "U3B6WKA57",    //Petr Tarant
         "U013P5H3QAU",  //Jakub Scavnicky
-        "U02FE0UQWPM",  //Jan Kadlec
         "U7LLS4W75",    //Matyas Kandl
         "U023FFNGA0H",  //Miroslav Koldus
         "U01G6MG3EA3",   //Vojtech Tollar
-        //"U5M77KWMT",   //Petr Janu
         "U08JV494B8A",   //Zdenek Ornst
         "U08HPKN248P",   //Vojtech Tollar
-        "U08SQE6HRP0",   //Peter Koza
+        "U091FHTFKAS",   //Jan Svager
     ];
 
     // Get next moderator using the simple rotation system
