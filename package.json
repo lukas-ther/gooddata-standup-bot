@@ -1,0 +1,11 @@
+{
+  "name": "standup-bot",
+  "version": "1.0.0",
+  "description": "Daily standup moderator notification bot for Slack",
+  "type": "module",
+  "scripts": {
+    "start": "node slackbot.js"
+  },
+  "keywords": ["slack", "standup", "bot"],
+  "license": "MIT"
+}
