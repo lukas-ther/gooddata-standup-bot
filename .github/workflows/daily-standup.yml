@@ -1,10 +1,10 @@
 name: Daily Standup Notification
 
 on:
-  schedule:
+  # schedule:
     # 8:17 AM UTC = 9:17 AM CET (winter) / 10:17 AM CEST (summer)
-    - cron: '35 9 * * 1-5'  # Weekdays only (Mon-Fri)
-  # workflow_dispatch:  # Allow manual trigger for testing
+    # - cron: '35 9 * * 1-5'  # Weekdays only (Mon-Fri)
+  workflow_dispatch:  # Allow manual trigger for testing
 
 jobs:
   send-notification:
