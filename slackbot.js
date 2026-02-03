@@ -68,12 +68,12 @@ function sendStandupNotification() {
     const teamMembers = [
         "USA8YNHR6",    //Lukas Ther
         "U3B6WKA57",    //Petr Tarant
-        "U013P5H3QAU",  //Jakub Scavnicky
         "U7LLS4W75",    //Matyas Kandl
         "U023FFNGA0H",  //Miroslav Koldus
         "U01G6MG3EA3",   //Vojtech Tollar
         "U08JV494B8A",   //Zdenek Ornst
         "U08HPKN248P",   //Vojtech Tollar
+        "U08HPKN248P",   //Vladimir Krocak
         "U091FHTFKAS",   //Jan Svager
     ];
 
